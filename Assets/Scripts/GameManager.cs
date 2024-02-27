@@ -122,7 +122,7 @@ public class GameManager : MonoBehaviour
     {
         
 
-        if (score == 30 )
+        if (score == 1 )
         {
             face.SetActive(true);
             animator.SetBool("True", true );
