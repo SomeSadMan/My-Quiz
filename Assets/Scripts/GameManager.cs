@@ -4,6 +4,7 @@ using System.Linq;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System.Collections;
+using MaterialUI;
 
 
 public class GameManager : MonoBehaviour
@@ -21,8 +22,11 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject winScreen;
     [SerializeField] private GameObject[] buttons;
     [SerializeField] private GameObject face;
+    [SerializeField] private Text reachedPoints;
+    [SerializeField] private Text playerHealth;
     
     public static int score = 0;
+    private static int health = 3;
    
 
     void Start()
@@ -34,8 +38,12 @@ public class GameManager : MonoBehaviour
             unAnsweredQ = questions.ToList<Question>();
         }
         scoreText.text = score.ToString();
+        playerHealth.text = health.ToString();
+
         AssignRandQUestion();
         WinScreen();
+        YouLose();
+
     }
 
     void AssignRandQUestion()
@@ -62,8 +70,10 @@ public class GameManager : MonoBehaviour
         }
         else
         {
+            health--;
             trueOrFalseAnswer.color = Color.red;
             trueOrFalseAnswer.text = "Wrong";
+            Debug.Log(health);
         }
         StartCoroutine(ToNextQuestion());
         
@@ -84,11 +94,21 @@ public class GameManager : MonoBehaviour
         }
         else
         {
+            health--;
             trueOrFalseAnswer.color = Color.red;
             trueOrFalseAnswer.text = "Wrong";
+            Debug.Log(health);
         }
         StartCoroutine(ToNextQuestion());
         
+    }
+
+    public void TryAgain()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        health = 3;
+        score = 0;
+
     }
 
     IEnumerator ToNextQuestion()
@@ -102,7 +122,7 @@ public class GameManager : MonoBehaviour
     {
         
 
-        if (score == 15 )
+        if (score == 30 )
         {
             face.SetActive(true);
             animator.SetBool("True", true );
@@ -110,10 +130,24 @@ public class GameManager : MonoBehaviour
             buttons[0].SetActive(false);
             buttons[1].SetActive(false);
             winScreen.SetActive(true);
-            
-            
+            reachedPoints.color = Color.green;
+            reachedPoints.text = "you've reached " + score + " points from 30 possibles";
+
+
+
         }
 
+    }
+
+    void YouLose()
+    {
+        if (health == 0)
+        {
+            qText.text = "Oops, it seems like you failed";
+            buttons[0].SetActive(false);
+            buttons[1].SetActive(false);
+            buttons[2].SetActive(true);
+        }
     }
 
 

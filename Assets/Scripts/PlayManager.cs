@@ -5,8 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class PlayManager : MonoBehaviour
 {
+
     public void LoadLevel()
     {
         SceneManager.LoadScene(1);
     }
+
+
+    public void TryAgain()
+    {
+        SceneManager.LoadScene(0);
+        
+    }
+
 }
