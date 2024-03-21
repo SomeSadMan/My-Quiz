@@ -1,2 +1,3 @@
-# My first repo on GitHub
+# Simple quiz game about Harry Potter.
+
  
