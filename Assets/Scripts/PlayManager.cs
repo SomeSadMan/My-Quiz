@@ -11,11 +11,4 @@ public class PlayManager : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 
-
-    public void TryAgain()
-    {
-        SceneManager.LoadScene(0);
-        
-    }
-
 }

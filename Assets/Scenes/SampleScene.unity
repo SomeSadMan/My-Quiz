@@ -461,7 +461,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -235}
+  m_AnchoredPosition: {x: 0, y: -284}
   m_SizeDelta: {x: 218.9995, y: 61.1431}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &238202282
@@ -570,6 +570,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 238202280}
   m_CullTransparentMesh: 1
+--- !u!1001 &273438019
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2058177574}
+    m_Modifications:
+    - target: {fileID: 2211564899198745197, guid: caf9732433f4dc044845763962493607, type: 3}
+      propertyPath: m_Name
+      value: YandexGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 2211564899198745199, guid: caf9732433f4dc044845763962493607, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -615
+      objectReference: {fileID: 0}
+    - target: {fileID: 2211564899198745199, guid: caf9732433f4dc044845763962493607, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -364
+      objectReference: {fileID: 0}
+    - target: {fileID: 2211564899198745199, guid: caf9732433f4dc044845763962493607, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2211564899198745199, guid: caf9732433f4dc044845763962493607, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2211564899198745199, guid: caf9732433f4dc044845763962493607, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2211564899198745199, guid: caf9732433f4dc044845763962493607, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2211564899198745199, guid: caf9732433f4dc044845763962493607, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2211564899198745199, guid: caf9732433f4dc044845763962493607, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2211564899198745199, guid: caf9732433f4dc044845763962493607, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2211564899198745199, guid: caf9732433f4dc044845763962493607, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: caf9732433f4dc044845763962493607, type: 3}
 --- !u!1 &388578893
 GameObject:
   m_ObjectHideFlags: 0
@@ -687,6 +744,11 @@ RectTransform:
   m_AnchoredPosition: {x: -183.5, y: 69.93024}
   m_SizeDelta: {x: 302.68, y: 97.859985}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!4 &461694962 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2211564899198745199, guid: caf9732433f4dc044845763962493607, type: 3}
+  m_PrefabInstance: {fileID: 273438019}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &485523351
 GameObject:
   m_ObjectHideFlags: 0
@@ -875,7 +937,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: TRUE
+  m_Text: "\u0412\u0435\u0440\u043D\u043E"
 --- !u!222 &508418331
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1362,7 +1424,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: FALSE
+  m_Text: "\u041D\u0435\u0432\u0435\u0440\u043D\u043E"
 --- !u!222 &618638948
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1449,7 +1511,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9716981, g: 0.23375754, b: 0.23375754, a: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1504,110 +1566,429 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questions:
-  - randomFact: The main character's name in the Harry Potter book series is Percy
-      Jackson
+  - randomFact: "\u0418\u043C\u044F \u0433\u043B\u0430\u0432\u043D\u043E\u0433\u043E
+      \u0433\u0435\u0440\u043E\u044F \u0432 \u0441\u0435\u0440\u0438\u0438 \u043A\u043D\u0438\u0433
+      \u043E \u0413\u0430\u0440\u0440\u0438 \u041F\u043E\u0442\u0442\u0435\u0440\u0435
+      - \u041F\u0435\u0440\u0441\u0438 \u0414\u0436\u0435\u043A\u0441\u043E\u043D"
     isTrue: 0
-  - randomFact: Lumos is a spell for creating light
+  - randomFact: "\u041B\u044E\u043C\u0443\u0441 \u044D\u0442\u043E \u0437\u0430\u043A\u043B\u0438\u043D\u0430\u043D\u0438\u0435
+      \u0434\u043B\u044F \u0441\u043E\u0437\u0434\u0430\u043D\u0438\u044F \u0441\u0432\u0435\u0442\u0430"
     isTrue: 1
-  - randomFact: Harry's best friend was called Neville
+  - randomFact: "\u041B\u0443\u0447\u0448\u0435\u0433\u043E \u0434\u0440\u0443\u0433\u0430
+      \u0413\u0430\u0440\u0440\u0438 \u0437\u0432\u0430\u043B\u0438 \u041D\u0435\u0432\u0438\u043B"
     isTrue: 0
-  - randomFact: Professor Snape taught Divination
+  - randomFact: "\u041F\u0440\u043E\u0444\u0435\u0441\u0441\u043E\u0440 \u0421\u043D\u0435\u0439\u043F
+      \u043F\u0440\u0435\u043F\u043E\u0434\u0430\u0432\u0430\u043B \u043F\u0440\u043E\u0440\u0438\u0446\u0430\u043D\u0438\u0435"
     isTrue: 0
-  - randomFact: The President of the Ministry of Magic is called Cornelius Fudge
+  - randomFact: "\u041F\u0440\u0435\u0437\u0438\u0434\u0435\u043D\u0442\u0430 \u041C\u0438\u043D\u0438\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u0430
+      \u041C\u0430\u0433\u0438\u0438 \u0437\u043E\u0432\u0443\u0442 \u041A\u043E\u0440\u043D\u0435\u043B\u0438\u0443\u0441
+      \u0424\u0430\u0434\u0436"
     isTrue: 1
-  - randomFact: The family in which Harry lived is called the Cocksleys
+  - randomFact: "\u0421\u0435\u043C\u044C\u044E, \u0432 \u043A\u043E\u0442\u043E\u0440\u043E\u0439
+      \u0436\u0438\u043B \u0413\u0430\u0440\u0440\u0438 \u0437\u043E\u0432\u0443\u0442
+      \u041F\u0440\u0438\u0434\u0443\u0440\u0441\u043B\u0438"
     isTrue: 0
-  - randomFact: The symbol of Gryffindor is a lion
+  - randomFact: "\u0421\u0438\u043C\u0432\u043E\u043B\u043E\u043C \u0413\u0440\u0438\u0444\u0444\u0438\u043D\u0434\u043E\u0440\u0430
+      \u044F\u0432\u043B\u044F\u0435\u0442\u0441\u044F \u043B\u0435\u0432"
     isTrue: 1
-  - randomFact: Oliver Wood was the first winner of the Triwizard Cup
+  - randomFact: "\u041E\u043B\u0438\u0432\u0435\u0440 \u0412\u0443\u0434 \u0431\u044B\u043B
+      \u043F\u0435\u0440\u0432\u044B\u043C \u043F\u043E\u0431\u0435\u0434\u0438\u0442\u0435\u043B\u0435\u043C
+      \u043A\u0443\u0431\u043A\u0430 \u043E\u0433\u043D\u044F"
     isTrue: 0
-  - randomFact: Veritaserum is a spell for creating truth serum
+  - randomFact: "\u0412\u0435\u0440\u0438\u0442\u0430\u0441\u0435\u0440\u0443\u043C
+      \u044D\u0442\u043E \u0437\u0430\u043A\u043B\u0438\u043D\u0430\u043D\u0438\u0435
+      \u0434\u043B\u044F \u0441\u043E\u0437\u0434\u0430\u043D\u0438\u044F \u043F\u0440\u0435\u0434\u043C\u0435\u0442\u043E\u0432"
     isTrue: 0
-  - randomFact: Fawkes is a phoenix
+  - randomFact: "\u0424\u043E\u0443\u043A\u0441 \u044D\u0442\u043E \u0444\u0435\u043D\u0438\u043A\u0441"
     isTrue: 1
-  - randomFact: Aberforth was Dumbledore's older brother
+  - randomFact: "\u0410\u0431\u0435\u0440\u0444\u043E\u0440\u0434 \u0431\u044B\u043B
+      \u0441\u0442\u0430\u0440\u0448\u0438\u043C \u0431\u0440\u0430\u0442\u043E\u043C
+      \u0414\u0430\u043C\u0431\u043B\u0434\u043E\u0440\u0430"
     isTrue: 0
-  - randomFact: Ron's brothers were named Finis and Ferb
+  - randomFact: "\u0411\u0440\u0430\u0442\u044C\u0435\u0432 \u0420\u043E\u043D\u0430
+      \u0437\u0432\u0430\u043B\u0438 \u0424\u0438\u043D\u0435\u0441 \u0438 \u0424\u0451\u0440\u0431"
     isTrue: 0
-  - randomFact: The house-elf who served the Malfoy family is named Bobby
+  - randomFact: "\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0439 \u044D\u043B\u044C\u0444,
+      \u043A\u043E\u0442\u043E\u0440\u044B\u0439 \u0441\u043B\u0443\u0436\u0438\u043B
+      \u0432 \u0441\u0435\u043C\u044C\u0435 \u041C\u0430\u043B\u0444\u043E\u0435\u0432
+      - \u0411\u043E\u0431\u0431\u0438"
     isTrue: 0
-  - randomFact: Protego is a spell for creating a shield
+  - randomFact: "\u041F\u0440\u043E\u0442\u0435\u0433\u043E - \u0437\u0430\u043A\u043B\u0438\u043D\u0430\u043D\u0438\u0435
+      \u0434\u043B\u044F \u0441\u043E\u0437\u0434\u0430\u043D\u0438\u044F \u0449\u0438\u0442\u0430"
     isTrue: 1
-  - randomFact: Harry's owl's name is Hedwig
+  - randomFact: "\u0418\u043C\u044F \u0441\u043E\u0432\u044B \u0413\u0430\u0440\u0440\u0438
+      - \u0425\u0435\u0434\u0432\u0438\u0433"
     isTrue: 1
-  - randomFact: Resurrecto is a spell for resurrecting the dead
+  - randomFact: "\u0420\u0435\u0437\u043E\u0443\u0440\u0435\u043A\u0441 - \u0437\u0430\u043A\u043B\u0438\u043D\u0430\u043D\u0438\u0435
+      \u0434\u043B\u044F \u0432\u043E\u0441\u043A\u0440\u0435\u0448\u0435\u043D\u0438\u044F
+      \u043C\u0435\u0440\u0442\u0432\u044B\u0445"
     isTrue: 1
-  - randomFact: Harry had a scar in the shape of a star
+  - randomFact: "\u0423 \u0413\u0430\u0440\u0440\u0438 \u0431\u044B\u043B \u0448\u0440\u0430\u043C
+      \u0432 \u0444\u043E\u0440\u043C\u0435 \u0437\u0432\u0435\u0437\u0434\u044B"
     isTrue: 0
-  - randomFact: Hermione used to be Harry's girlfriend
+  - randomFact: "\u0413\u0435\u0440\u043C\u0438\u043E\u043D\u0430 \u0431\u044B\u0432\u0448\u0430\u044F
+      \u0434\u0435\u0432\u0443\u0448\u043A\u0430 \u0413\u0430\u0440\u0440\u0438"
     isTrue: 0
-  - randomFact: Professor Sprout teaches Herbology
+  - randomFact: "\u041F\u0440\u043E\u0444\u0435\u0441\u0441\u043E\u0440 \u0421\u043F\u0440\u043E\u0443\u0442
+      \u043F\u0440\u0435\u043F\u043E\u0434\u0430\u0435\u0442 \u0431\u043E\u0442\u0430\u043D\u0438\u043A\u0443"
     isTrue: 1
-  - randomFact: The color of Gryffindor house is red
+  - randomFact: "\u0426\u0432\u0435\u0442 \u0444\u0430\u043A\u0443\u043B\u044C\u0442\u0435\u0442\u0430
+      \u0433\u0440\u0438\u0444\u0438\u043D\u0434\u043E\u0440 - \u043A\u0440\u0430\u0441\u043D\u044B\u0439"
     isTrue: 1
-  - randomFact: The spider that Hagrid saved was named Aragog
+  - randomFact: "\u041F\u0430\u0443\u043A\u0430 , \u043A\u043E\u0442\u043E\u0440\u043E\u0433\u043E
+      \u0441\u043F\u0430\u0441 \u0425\u0430\u0433\u0440\u0438\u0434 , \u0437\u0432\u0430\u043B\u0438
+      \u0410\u0440\u0430\u0433\u043E\u0433"
     isTrue: 1
-  - randomFact: Harry Potter was the last Horcrux
+  - randomFact: "\u0413\u0430\u0440\u0440\u0438 \u041F\u043E\u0442\u0442\u0435\u0440
+      \u0431\u044B\u043B \u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0438\u043C \u043A\u0440\u0438\u0441\u0442\u0440\u0430\u0436\u0435\u043C"
     isTrue: 1
-  - randomFact: Alohomora makes your broom fly
+  - randomFact: "\u0410\u043B\u0430\u0445\u043E\u043C\u043E\u0440\u0430 \u0437\u0430\u0441\u0442\u0430\u0432\u043B\u044F\u0435\u0442
+      \u0432\u0430\u0448 \u043A\u043E\u0432\u0435\u0440 \u043F\u043E\u043B\u0435\u0442\u0435\u0442\u044C"
     isTrue: 0
-  - randomFact: Harry Potter was Tom Riddle's brother
+  - randomFact: "\u0413\u0430\u0440\u0440\u0438 \u041F\u043E\u0442\u0442\u0435\u0440
+      \u0431\u044B\u043B \u0431\u0440\u0430\u0442\u043E\u043C \u0422\u043E\u043C\u0430
+      \u0420\u0435\u0434\u043B\u0430"
     isTrue: 0
-  - randomFact: Petunia is the name of Harry's aunt
+  - randomFact: "\u041F\u0435\u0442\u0443\u043D\u0438\u044F - \u0438\u043C\u044F
+      \u0442\u0435\u0442\u0438 \u0413\u0430\u0440\u0440\u0438"
     isTrue: 1
-  - randomFact: The magical creature guarding Hogwarts is a Phoenix
+  - randomFact: "\u041C\u0430\u0433\u0438\u0447\u0435\u0441\u043A\u043E\u0435 \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u043E
+      \u043E\u0445\u0440\u044F\u043D\u044F\u044E\u0449\u0435\u0435 \u0425\u043E\u0433\u0432\u0430\u0440\u0434\u0441
+      - \u0424\u0435\u043D\u0438\u043A\u0441"
     isTrue: 1
-  - randomFact: Harry Potter's main enemy is Lord Woblan de-Shprot
+  - randomFact: "\u0413\u043B\u0430\u0432\u043D\u044B\u0439 \u043F\u0440\u043E\u0442\u0438\u0432\u043D\u0438\u043A
+      \u0413\u0430\u0440\u0440\u0438 \u041F\u043E\u0442\u0442\u0435\u0440\u0430 -
+      \u043B\u043E\u0440\u0434 \u0412\u043E\u0431\u043B\u0430\u043D - \u0434\u0435-
+      \u0428\u043F\u0440\u043E\u0442"
     isTrue: 0
-  - randomFact: Malfoy was the killer of Dumbledore
+  - randomFact: "\u0423\u0431\u0438\u0439\u0446\u0435\u0439 \u0414\u0430\u043C\u0431\u043B\u0434\u043E\u0440\u0430
+      \u0431\u044B\u043B \u041C\u0430\u043B\u0444\u043E\u0439"
     isTrue: 0
-  - randomFact: Vernon Dursley is Harry Potter's foster father
+  - randomFact: "\u0412\u0435\u0440\u043D\u043E\u043D \u0414\u0443\u0440\u0441\u043B\u044C
+      - \u043A\u0440\u0435\u0441\u0442\u043D\u044B\u0439 \u0413\u0430\u0440\u0440\u0438
+      \u041F\u043E\u0442\u0442\u0435\u0440\u0430"
     isTrue: 0
-  - randomFact: Harry's future wife is named Ginny
+  - randomFact: "\u0411\u0443\u0434\u0443\u0449\u0443\u044E \u0436\u0435\u043D\u0443
+      \u0413\u0430\u0440\u0440\u0438 \u0437\u043E\u0432\u0443\u0442 \u0414\u0436\u0438\u043D\u043D\u0438"
     isTrue: 1
-  - randomFact: Harry Potter's birthday is July 31, 1980
+  - randomFact: "\u0414\u0435\u043D\u044C \u0440\u043E\u0436\u0434\u0435\u043D\u0438\u044F
+      \u0413\u0430\u0440\u0440\u0438 \u041F\u043E\u0442\u0442\u0435\u0440\u0430 31
+      \u0438\u044E\u043B\u044F 1980"
     isTrue: 1
-  - randomFact: Durry Lane flew around the first floor of Hogwarts
+  - randomFact: "\u0414\u0443\u0440\u0440\u0438 \u041B\u0435\u0439\u043D \u043B\u0435\u0442\u0430\u043B
+      \u043F\u043E \u043F\u0435\u0440\u0432\u043E\u043C\u0443 \u044D\u0442\u0430\u0436\u0443
+      \u0445\u043E\u0433\u0432\u0430\u0440\u0434\u0441\u0430"
     isTrue: 0
-  - randomFact: The Weasley family has 5 members
+  - randomFact: "\u0427\u0438\u0441\u043B\u043E \u0441\u0435\u043C\u044C\u0438 \u0423\u0438\u0437\u043B\u0438
+      \u043D\u0430\u0441\u0447\u0438\u0442\u044B\u0432\u0430\u0435\u0442 5 \u0447\u0435\u043B\u043E\u0432\u0435\u043A"
     isTrue: 0
-  - randomFact: Ginny Weasley's Patronus is a horse
+  - randomFact: "\u041F\u0430\u0442\u0440\u043E\u043D\u0443\u0441 \u0414\u0436\u0438\u043D\u043D\u0438
+      \u0423\u0438\u0437\u043B\u0438 - \u043A\u043E\u043D\u044C"
     isTrue: 1
-  - randomFact: Albus died at the age of 115
+  - randomFact: "\u0410\u043B\u044C\u0431\u0443\u0441 \u043F\u043E\u0433\u0438\u0431
+      \u0432 \u0432\u043E\u0437\u0440\u0430\u0441\u0442\u0435 115 \u043B\u0435\u0442"
     isTrue: 1
-  - randomFact: Hagrid's Patronus is an elephant
+  - randomFact: "\u041F\u0430\u0442\u0440\u043E\u043D\u0443\u0441 \u0425\u0430\u0433\u0440\u0438\u0434\u0430
+      - \u0441\u043B\u043E\u043D"
     isTrue: 0
-  - randomFact: Ginny Weasley killed Bellatrix Lestrange in the 7th part
+  - randomFact: "\u0414\u0436\u0438\u043D\u043D\u0438 \u0423\u0438\u0437\u043B\u0438
+      \u0443\u0431\u0438\u043B\u0430 \u0411\u0435\u043B\u0430\u0442\u0440\u0438\u0441\u0443
+      \u041B\u0435\u0441\u0442\u0440\u0435\u0439\u043D\u0434\u0436 \u0432 7 \u0447\u0430\u0441\u0442\u0438"
     isTrue: 0
-  - randomFact: Charlie is the oldest son in the Weasley family
+  - randomFact: "\u0427\u0430\u0440\u043B\u0438 \u0441\u0442\u0430\u0440\u0448\u0438\u0439
+      \u0441\u044B\u043D \u0432 \u0441\u0435\u043C\u044C\u0435 \u0423\u0438\u0437\u043B\u0438 "
     isTrue: 0
-  - randomFact: Hermione's second name is Jane
+  - randomFact: "\u0412\u0442\u043E\u0440\u043E\u0435 \u0438\u043C\u044F \u0413\u0435\u0440\u043C\u0438\u043E\u043D\u044B
+      - \u0414\u0436\u0435\u0439\u043D "
     isTrue: 1
-  - randomFact: Before becoming the headmaster of Hogwarts, Albus Dumbledore was
-      a Transfiguration professor
+  - randomFact: "\u0414\u043E \u0441\u0442\u0430\u043D\u043E\u0432\u043B\u0435\u043D\u0438\u044F
+      \u0434\u0438\u0440\u0435\u043A\u0442\u043E\u0440\u043E\u043C \u0425\u043E\u0433\u0432\u0430\u0440\u0434\u0441\u0430
+      , \u0410\u043B\u044C\u0431\u0443\u0441 \u0414\u0430\u043C\u0431\u043B\u0434\u043E\u0440
+      \u0431\u044B\u043B \u043F\u0440\u043E\u0444\u0435\u0441\u0441\u043E\u0440\u043E\u043C
+      \u0442\u0440\u0430\u043D\u0441\u0444\u0438\u0433\u0443\u0440\u0430\u0446\u0438\u0438"
     isTrue: 1
-  - randomFact: Molly Weasley's maiden name is Smith
+  - randomFact: "\u0414\u0435\u0432\u0438\u0447\u044C\u044F \u0444\u0430\u043C\u0438\u043B\u0438\u044F
+      \u041C\u043E\u043B\u043B\u0438 \u0423\u0438\u0437\u043B\u0438 - \u0421\u043C\u0438\u0442"
     isTrue: 0
-  - randomFact: Nicholas Flamel created the Philosopher's Stone
+  - randomFact: "\u0421\u043E\u0437\u0434\u0430\u0442\u0435\u043B\u0435\u043C \u0444\u0438\u043B\u043E\u0441\u043E\u0432\u0441\u043A\u043E\u0433\u043E
+      \u043A\u0430\u043C\u043D\u044F \u0431\u044B\u043B \u041D\u0438\u043A\u043E\u043B\u0430\u0441
+      \u0424\u043B\u0430\u043C\u0435\u043B\u044C"
     isTrue: 1
-  - randomFact: Bellatrix Lestrange is Sirius Black's niece
+  - randomFact: "\u0411\u0435\u043B\u0430\u0442\u0440\u0438\u0441\u0430 \u041B\u0435\u0441\u0442\u0440\u0435\u043D\u0434\u0436
+      \u043F\u043B\u0435\u043C\u044F\u043D\u043D\u0438\u0446\u0430 \u0421\u0438\u0440\u0438\u0443\u0441\u0430
+      \u0411\u043B\u044D\u043A\u0430"
     isTrue: 0
-  - randomFact: Albus and Gellert Grindelwald had a duel in 1945
+  - randomFact: "\u0410\u043B\u044C\u0431\u0443\u0441 \u0438 \u0413\u0440\u0438\u043D-\u0434\u0435-\u0412\u0430\u043B\u044C\u0434
+      \u0441\u043E\u0448\u043B\u0438\u0441\u044C \u0432 \u0441\u0445\u0432\u0430\u0442\u043A\u0435
+      \u0432 1945 \u0433\u043E\u0434\u0443"
     isTrue: 1
-  - randomFact: Severus Snape was the one who saved Harry from falling off his broom
-      during a Quidditch match
+  - randomFact: "\u0421\u0435\u0432\u0435\u0440\u0443\u0441 \u0421\u043D\u0435\u0439\u043F\u0441
+      \u0431\u044B\u043B \u0442\u0435\u043C, \u043A\u0442\u043E \u0441\u043F\u0430\u0441
+      \u0413\u0430\u0440\u0440\u0438 \u043E\u0442 \u043F\u0430\u0434\u0435\u043D\u0438\u044F
+      \u0441 \u043C\u0435\u0442\u043B\u044B \u0432\u043E \u0432\u0440\u0435\u043C\u044F
+      \u043C\u0430\u0442\u0447\u0430"
     isTrue: 1
-  - randomFact: '"Never tickle a sleeping dragon" is the motto of the School of Witchcraft
-      and Wizardry'
+  - randomFact: "\"\u041D\u0438\u043A\u043E\u0433\u0434\u0430 \u043D\u0435 \u0449\u0438\u043A\u043E\u0442\u0430\u0442\u044C
+      \u0434\u0440\u0430\u043A\u043E\u043D\u0430\" - \u0434\u0435\u0432\u0438\u0437
+      \u0448\u043A\u043E\u043B\u044B \u0447\u0430\u0440\u043E\u0434\u0435\u0439\u0441\u0442\u0432\u0430
+      \u0438 \u0432\u043E\u043B\u0448\u0435\u0431\u0441\u0442\u0432\u0430"
     isTrue: 1
-  - randomFact: In the second movie, Harry gave Dobby a panties
+  - randomFact: "\u0412\u043E \u0432\u0442\u043E\u0440\u043E\u043C \u0444\u0438\u043B\u044C\u043C\u0435
+      , \u0413\u0430\u0440\u0440\u0438 \u043F\u043E\u0434\u0430\u0440\u0438\u043B
+      \u0414\u043E\u0431\u0431\u0438 \u0442\u0440\u0443\u0441\u044B"
     isTrue: 0
-  - randomFact: The Avada Kedavra spell makes you vomit slugs
+  - randomFact: "\u0417\u0430\u043A\u043B\u0438\u043D\u0430\u043D\u0438\u0435 \u0410\u0432\u0430\u0434\u0430\u043A\u0435\u0434\u0430\u0432\u0440\u0430
+      \u0437\u0430\u0441\u0442\u0430\u0432\u043B\u044F\u0435\u0442 \u0442\u0435\u0431\u044F
+      \u0431\u043B\u0435\u0432\u0430\u0442\u044C \u0441\u043B\u0438\u0437\u043D\u044F\u043C\u0438"
     isTrue: 0
-  - randomFact: The Bombarda spell causes stomach upset
+  - randomFact: "\u0417\u0430\u043A\u043B\u0438\u043D\u0430\u043D\u0438\u0435 \u0431\u043E\u043C\u0431\u0430\u0440\u0434\u0430
+      \u0432\u044B\u0437\u044B\u0432\u0430\u0435\u0442 \u043D\u0435\u0441\u0432\u0430\u0440\u0435\u043D\u0438\u0435
+      \u0436\u0435\u043B\u0443\u0434\u043A\u0430"
     isTrue: 0
-  - randomFact: In the seventh part, Hermione had to erase her parents' memories
+  - randomFact: "\u0412 \u0441\u0435\u0434\u044C\u043C\u043E\u0439 \u0447\u0430\u0441\u0442\u0438
+      \u0413\u0435\u0440\u043C\u0438\u043E\u043D\u0435 \u043F\u0440\u0438\u0448\u043B\u043E\u0441\u044C
+      \u0441\u0442\u0435\u0440\u0435\u0442\u044C \u0441\u0432\u043E\u0438\u043C \u0440\u043E\u0434\u0438\u0442\u0435\u043B\u044F\u043C
+      \u043F\u0430\u043C\u044F\u0442\u044C"
     isTrue: 1
+  - randomFact: "\u0413\u0430\u0440\u0440\u0438 \u041F\u043E\u0442\u0442\u0435\u0440
+      - \u0435\u0434\u0438\u043D\u0441\u0442\u0432\u0435\u043D\u043D\u044B\u0439
+      \u0432\u044B\u0436\u0438\u0432\u0448\u0438\u0439 \u0447\u0435\u043B\u043E\u0432\u0435\u043A
+      \u043F\u043E\u0441\u043B\u0435 \u043D\u0430\u043F\u0430\u0434\u0435\u043D\u0438\u044F
+      \u041B\u043E\u0440\u0434\u0430 \u0412\u043E\u043B\u0434\u0435\u043C\u043E\u0440\u0442\u0430
+      \u043D\u0430 \u043D\u0435\u0433\u043E"
+    isTrue: 1
+  - randomFact: "\u0413\u0435\u0440\u043C\u0438\u043E\u043D\u0430 \u0413\u0440\u0435\u0439\u043D\u0434\u0436\u0435\u0440
+      \u044F\u0432\u043B\u044F\u0435\u0442\u0441\u044F \u0447\u043B\u0435\u043D\u043E\u043C
+      \u0444\u0430\u043A\u0443\u043B\u044C\u0442\u0435\u0442\u0430 \u0413\u0440\u0438\u0444\u0444\u0438\u043D\u0434\u043E\u0440"
+    isTrue: 1
+  - randomFact: "\u0412\u0438\u043A\u0442\u043E\u0440 \u041A\u0440\u0430\u043C \u0441\u0442\u0430\u043B
+      \u043F\u043E\u0431\u0435\u0434\u0438\u0442\u0435\u043B\u0435\u043C \u0422\u0443\u0440\u043D\u0438\u0440\u0430
+      \u0422\u0440\u0451\u0445 \u0412\u043E\u043B\u0448\u0435\u0431\u043D\u0438\u043A\u043E\u0432"
+    isTrue: 0
+  - randomFact: "\u0412\u043E\u043B\u0434\u0435\u043C\u043E\u0440\u0442 \u0443\u0431\u0438\u043B
+      \u0413\u0430\u0440\u0440\u0438 \u041F\u043E\u0442\u0442\u0435\u0440\u0430"
+    isTrue: 0
+  - randomFact: "\u0413\u0430\u0440\u0440\u0438 \u041F\u043E\u0442\u0442\u0435\u0440
+      \u0438\u043C\u0435\u0435\u0442 \u0434\u0432\u0443\u0445 \u0440\u043E\u0434\u043D\u044B\u0445
+      \u0431\u0440\u0430\u0442\u044C\u0435\u0432"
+    isTrue: 0
+  - randomFact: "\u0413\u0430\u0440\u0440\u0438 \u041F\u043E\u0442\u0442\u0435\u0440
+      \u0443\u0447\u0438\u043B\u0441\u044F \u0432 \u0428\u043A\u043E\u043B\u0435
+      \u0427\u0430\u0440\u043E\u0434\u0435\u0439\u0441\u0442\u0432\u0430 \u0438 \u0412\u043E\u043B\u0448\u0435\u0431\u0441\u0442\u0432\u0430
+      \"\u0414\u0443\u0440\u043C\u0441\u0442\u0440\u0430\u043D\u0433\""
+    isTrue: 0
+  - randomFact: "\u0421\u043D\u0435\u0439\u043F \u0431\u044B\u043B \u0447\u043B\u0435\u043D\u043E\u043C
+      \u0444\u0430\u043A\u0443\u043B\u044C\u0442\u0435\u0442\u0430 \u0421\u043B\u0438\u0437\u0435\u0440\u0438\u043D"
+    isTrue: 1
+  - randomFact: "\u0413\u0435\u0440\u043C\u0438\u043E\u043D\u0430 \u0413\u0440\u0435\u0439\u043D\u0434\u0436\u0435\u0440
+      - \u0434\u043E\u0447\u044C \u043C\u0430\u0433\u043B\u043E\u0432"
+    isTrue: 1
+  - randomFact: "\u0412\u0435\u043B\u0438\u043A\u043E\u0431\u0440\u0438\u0442\u0430\u043D\u0438\u044F
+      - \u043C\u0435\u0441\u0442\u043E \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044F
+      \u0432\u0441\u0435\u0445 \u043A\u043D\u0438\u0433 \u043E \u0413\u0430\u0440\u0440\u0438
+      \u041F\u043E\u0442\u0442\u0435\u0440\u0435"
+    isTrue: 0
+  - randomFact: "\u0412\u043E\u043B\u0434\u0435\u043C\u043E\u0440\u0442 \u0443\u0431\u0438\u043B
+      \u0414\u0430\u043C\u0431\u043B\u0434\u043E\u0440\u0430"
+    isTrue: 1
+  - randomFact: "\u0425\u0430\u0433\u0440\u0438\u0434 - \u043F\u043E\u043B\u0443\u043A\u0440\u043E\u0432\u043A\u0430"
+    isTrue: 1
+  - randomFact: "\u0421\u0435\u0434\u0440\u0438\u043A \u0414\u0438\u0433\u0433\u043E\u0440\u0438
+      \u0441\u0442\u0430\u043B \u043F\u043E\u0431\u0435\u0434\u0438\u0442\u0435\u043B\u0435\u043C
+      \u0422\u0443\u0440\u043D\u0438\u0440\u0430 \u0422\u0440\u0451\u0445 \u0412\u043E\u043B\u0448\u0435\u0431\u043D\u0438\u043A\u043E\u0432"
+    isTrue: 0
+  - randomFact: "\u041F\u0440\u043E\u0444\u0435\u0441\u0441\u043E\u0440 \u041C\u0430\u043A\u0433\u043E\u043D\u0430\u0433\u0430\u043B\u043B
+      \u043F\u0440\u0435\u043F\u043E\u0434\u0430\u0432\u0430\u043B\u0430 \u0442\u0440\u0430\u043D\u0441\u0444\u0438\u0433\u0443\u0440\u0430\u0446\u0438\u044E"
+    isTrue: 1
+  - randomFact: "\u041B\u043E\u0440\u0434 \u0412\u043E\u043B\u0434\u0435\u043C\u043E\u0440\u0442
+      \u0431\u044B\u043B \u043C\u0430\u0433\u043B\u043E\u0440\u043E\u0436\u0434\u0451\u043D\u043D\u044B\u043C"
+    isTrue: 0
+  - randomFact: "\u0426\u0432\u0435\u0442 \u0444\u0430\u043A\u0443\u043B\u044C\u0442\u0435\u0442\u0430
+      \u0413\u0440\u0438\u0444\u0444\u0438\u043D\u0434\u043E\u0440 - \u0436\u0451\u043B\u0442\u044B\u0439"
+    isTrue: 0
+  - randomFact: "\u0413\u0430\u0440\u0440\u0438 \u041F\u043E\u0442\u0442\u0435\u0440
+      \u0431\u044B\u043B \u043A\u0430\u0440\u043B\u0438\u043A\u043E\u043C"
+    isTrue: 0
+  - randomFact: "\u0423 \u0413\u0435\u0440\u043C\u0438\u043E\u043D\u044B \u0413\u0440\u0435\u0439\u043D\u0434\u0436\u0435\u0440
+      \u0431\u044B\u043B\u043E \u0434\u0432\u043E\u0435 \u0440\u043E\u0434\u043D\u044B\u0445
+      \u0431\u0440\u0430\u0442\u044C\u0435\u0432"
+    isTrue: 0
+  - randomFact: "\u0424\u0430\u043A\u0443\u043B\u044C\u0442\u0435\u0442 \u0421\u043B\u0438\u0437\u0435\u0440\u0438\u043D
+      \u0431\u044B\u043B \u043E\u0441\u043D\u043E\u0432\u0430\u043D \u0417\u043C\u0435\u0435\u043C"
+    isTrue: 1
+  - randomFact: "\u0413\u0430\u0440\u0440\u0438 \u041F\u043E\u0442\u0442\u0435\u0440
+      \u0431\u044B\u043B \u043F\u043E\u0445\u0438\u0449\u0435\u043D \u0441 \u0434\u043E\u043C\u0430
+      \u0414\u0443\u0440\u0441\u043B\u0435\u0439"
+    isTrue: 1
+  - randomFact: "\u0413\u0430\u0440\u0440\u0438 \u041F\u043E\u0442\u0442\u0435\u0440
+      \u0431\u044B\u043B \u0438\u0437\u0431\u0440\u0430\u043D \u043A\u0430\u043F\u0438\u0442\u0430\u043D\u043E\u043C
+      \u043A\u043E\u043C\u0430\u043D\u0434\u044B \u043F\u043E \u043A\u0432\u0438\u0434\u0434\u0438\u0447\u0443
+      \u0432 \u0425\u043E\u0433\u0432\u0430\u0440\u0442\u0441\u0435"
+    isTrue: 1
+  - randomFact: "\u041F\u0440\u043E\u0444\u0435\u0441\u0441\u043E\u0440 \u0421\u043F\u0440\u043E\u0443\u0442
+      \u043F\u0440\u0435\u043F\u043E\u0434\u0430\u0432\u0430\u043B\u0430 \u0430\u0441\u0442\u0440\u043E\u043B\u043E\u0433\u0438\u044E"
+    isTrue: 0
+  - randomFact: "\u0412\u043E\u043B\u0434\u0435\u043C\u043E\u0440\u0442 \u0431\u044B\u043B
+      \u0441\u0438\u0440\u043E\u0442\u043E\u0439"
+    isTrue: 1
+  - randomFact: "\u0421\u0438\u0440\u0438\u0443\u0441 \u0411\u043B\u044D\u043A \u0431\u044B\u043B
+      \u043A\u0440\u0451\u0441\u0442\u043D\u044B\u043C \u043E\u0442\u0446\u043E\u043C
+      \u0413\u0430\u0440\u0440\u0438 \u041F\u043E\u0442\u0442\u0435\u0440\u0430"
+    isTrue: 1
+  - randomFact: "\u0423 \u0413\u0435\u0440\u043C\u0438\u043E\u043D\u044B \u0413\u0440\u0435\u0439\u043D\u0434\u0436\u0435\u0440
+      \u0431\u044B\u043B\u0430 \u0441\u043E\u0431\u0430\u043A\u0430 \u043F\u043E
+      \u043A\u043B\u0438\u0447\u043A\u0435 \u041A\u0440\u0443\u043C"
+    isTrue: 0
+  - randomFact: "\u0414\u0438\u0440\u0435\u043A\u0442\u043E\u0440\u043E\u043C \u0425\u043E\u0433\u0432\u0430\u0440\u0442\u0441\u0430
+      \u0431\u044B\u043B \u0421\u043D\u0435\u0439\u043F"
+    isTrue: 0
+  - randomFact: "\u0426\u0432\u0435\u0442 \u0444\u0430\u043A\u0443\u043B\u044C\u0442\u0435\u0442\u0430
+      \u0425\u0430\u0444\u0444\u043B\u043F\u0430\u0444 - \u0437\u0435\u043B\u0451\u043D\u044B\u0439"
+    isTrue: 1
+  - randomFact: "\u041F\u0440\u043E\u0444\u0435\u0441\u0441\u043E\u0440 \u041A\u0432\u0438\u0440\u0440\u0435\u043B
+      \u0431\u044B\u043B \u0421\u043E\u0432\u043E\u0439"
+    isTrue: 0
+  - randomFact: "\u0424\u0438\u043B\u0447 \u0440\u0430\u0431\u043E\u0442\u0430\u043B
+      \u0432 \u0425\u043E\u0433\u0432\u0430\u0440\u0442\u0441\u0435 \u043A\u0430\u043A
+      \u0443\u0431\u043E\u0440\u0449\u0438\u043A"
+    isTrue: 0
+  - randomFact: "\u041F\u0440\u043E\u0444\u0435\u0441\u0441\u043E\u0440 \u0411\u0438\u043D\u0441
+      \u0431\u044B\u043B \u043F\u0440\u0438\u0437\u0440\u0430\u043A\u043E\u043C"
+    isTrue: 1
+  - randomFact: "\u0413\u0435\u0440\u043C\u0438\u043E\u043D\u0430 \u0413\u0440\u0435\u0439\u043D\u0434\u0436\u0435\u0440
+      \u0438\u043C\u0435\u043B\u0430 \u043A\u0440\u0430\u0441\u043D\u044B\u0435 \u0432\u043E\u043B\u043E\u0441\u044B"
+    isTrue: 0
+  - randomFact: "\u0426\u0432\u0435\u0442 \u0444\u0430\u043A\u0443\u043B\u044C\u0442\u0435\u0442\u0430
+      \u0421\u043B\u0438\u0437\u0435\u0440\u0438\u043D - \u0441\u0438\u043D\u0438\u0439"
+    isTrue: 0
+  - randomFact: "\u0414\u0438\u0440\u0435\u043A\u0442\u043E\u0440\u043E\u043C \u0425\u043E\u0433\u0432\u0430\u0440\u0442\u0441\u0430
+      \u0431\u044B\u043B \u0422\u0440\u0435\u043B\u043E\u043D\u0438"
+    isTrue: 0
+  - randomFact: "\u0413\u0430\u0440\u0440\u0438 \u041F\u043E\u0442\u0442\u0435\u0440
+      \u0443\u0447\u0438\u043B\u0441\u044F \u0432 \u0428\u043A\u043E\u043B\u0435
+      \u0427\u0430\u0440\u043E\u0434\u0435\u0439\u0441\u0442\u0432\u0430 \u0438 \u0412\u043E\u043B\u0448\u0435\u0431\u0441\u0442\u0432\u0430
+      \"\u0411\u043E\u0431\u0430\u0442\u0442\u043E\u043D\u0441\""
+    isTrue: 0
+  - randomFact: "\u0413\u0430\u0440\u0440\u0438 \u041F\u043E\u0442\u0442\u0435\u0440
+      \u0431\u044B\u043B \u043D\u0430\u0437\u043D\u0430\u0447\u0435\u043D \u043F\u0440\u0435\u0444\u0435\u043A\u0442\u043E\u043C
+      \u0444\u0430\u043A\u0443\u043B\u044C\u0442\u0435\u0442\u0430 \u0413\u0440\u0438\u0444\u0444\u0438\u043D\u0434\u043E\u0440"
+    isTrue: 1
+  - randomFact: "\u041B\u043E\u0440\u0434 \u0412\u043E\u043B\u0434\u0435\u043C\u043E\u0440\u0442
+      \u0431\u044B\u043B \u0438\u0437\u0433\u043D\u0430\u043D \u0438\u0437 \u0425\u043E\u0433\u0432\u0430\u0440\u0442\u0441\u0430"
+    isTrue: 0
+  - randomFact: "\u0424\u043B\u0438\u0442\u0432\u0438\u043A - \u043F\u0440\u0435\u043F\u043E\u0434\u0430\u0432\u0430\u0442\u0435\u043B\u044C
+      \u0442\u0440\u0430\u043D\u0441\u0444\u0438\u0433\u0443\u0440\u0430\u0446\u0438\u0438"
+    isTrue: 0
+  - randomFact: "\u0412\u043E\u043B\u0434\u0435\u043C\u043E\u0440\u0442 \u0431\u044B\u043B
+      \u0431\u0440\u0430\u0442\u043E\u043C \u0413\u0430\u0440\u0440\u0438 \u041F\u043E\u0442\u0442\u0435\u0440\u0430"
+    isTrue: 0
+  - randomFact: "\u0413\u0430\u0440\u0440\u0438 \u041F\u043E\u0442\u0442\u0435\u0440
+      \u0431\u044B\u043B \u0447\u043B\u0435\u043D\u043E\u043C \u0444\u0430\u043A\u0443\u043B\u044C\u0442\u0435\u0442\u0430
+      \u0425\u0430\u0444\u0444\u043B\u043F\u0430\u0444"
+    isTrue: 0
+  - randomFact: "\u0413\u0430\u0440\u0440\u0438 \u041F\u043E\u0442\u0442\u0435\u0440
+      \u0431\u044B\u043B \u0434\u043E\u043C\u043E\u0432\u043B\u0430\u0434\u0435\u043B\u044C\u0446\u0435\u043C
+      \u0432 \u0413\u0440\u0438\u043D\u0433\u043E\u0442\u0442\u0441\u0435"
+    isTrue: 1
+  - randomFact: "\u0421\u0435\u043C\u044C\u044F \u0414\u0430\u043C\u0431\u043B\u0434\u043E\u0440\u0430
+      \u043F\u0440\u043E\u0436\u0438\u0432\u0430\u043B\u0430 \u0432 \u0425\u043E\u0433\u0432\u0430\u0440\u0442\u0441\u0435"
+    isTrue: 0
+  - randomFact: "\u0413\u0430\u0440\u0440\u0438 \u041F\u043E\u0442\u0442\u0435\u0440
+      \u0440\u043E\u0434\u0438\u043B\u0441\u044F \u0432 \u043C\u0430\u0433\u0438\u0447\u0435\u0441\u043A\u043E\u0439
+      \u0441\u0435\u043C\u044C\u0435"
+    isTrue: 1
+  - randomFact: "\u0414\u0443\u0440\u043C\u0441\u0442\u0440\u0430\u043D\u0433 - \u044D\u0442\u043E
+      \u0448\u043A\u043E\u043B\u0430 \u043C\u0430\u0433\u0438\u0438 \u0432 \u0411\u0440\u0438\u0442\u0430\u043D\u0438\u0438"
+    isTrue: 0
+  - randomFact: "\u0420\u043E\u043D\u0430\u043B\u044C\u0434 \u0423\u0438\u0437\u043B\u0438
+      \u0438\u043C\u0435\u0435\u0442 \u0431\u0440\u0430\u0442\u044C\u0435\u0432 \u043F\u043E
+      \u0438\u043C\u0435\u043D\u0438 \u0424\u0440\u0435\u0434 \u0438 \u0414\u0436\u043E\u0440\u0434\u0436"
+    isTrue: 1
+  - randomFact: "\u041F\u043E\u043B\u043D\u043E\u0435 \u0438\u043C\u044F \u0425\u0430\u0433\u0440\u0438\u0434\u0430
+      - \u0420\u0443\u0431\u0435\u0443\u0441 \u0425\u0430\u0433\u0440\u0438\u0434"
+    isTrue: 1
+  - randomFact: "\u0412\u043E\u043B\u0430\u043D-\u0434\u0435-\u041C\u043E\u0440\u0442
+      \u0443\u0431\u0438\u043B \u0440\u043E\u0434\u0438\u0442\u0435\u043B\u0435\u0439
+      \u0413\u0430\u0440\u0440\u0438 \u041F\u043E\u0442\u0442\u0435\u0440\u0430"
+    isTrue: 1
+  - randomFact: "\u0425\u043E\u0433\u0432\u0430\u0440\u0442\u0441 \u0431\u044B\u043B
+      \u043E\u0441\u043D\u043E\u0432\u0430\u043D \u0432 10 \u0432\u0435\u043A\u0435"
+    isTrue: 0
+  - randomFact: "\u0412\u0435\u043B\u0438\u043A\u0438\u0439 \u0417\u0430\u043B \u0425\u043E\u0433\u0432\u0430\u0440\u0442\u0441\u0430
+      \u043C\u043E\u0436\u0435\u0442 \u0438\u0437\u043C\u0435\u043D\u044F\u0442\u044C\u0441\u044F
+      \u0432 \u0437\u0430\u0432\u0438\u0441\u0438\u043C\u043E\u0441\u0442\u0438 \u043E\u0442
+      \u043F\u0440\u0430\u0437\u0434\u043D\u0438\u043A\u0430 \u0438\u043B\u0438 \u0441\u043E\u0431\u044B\u0442\u0438\u044F"
+    isTrue: 1
+  - randomFact: "\u041F\u0440\u043E\u0444\u0435\u0441\u0441\u043E\u0440 \u041C\u0430\u043A\u0433\u043E\u043D\u0430\u0433\u0430\u043B\u043B
+      - \u0433\u043B\u0430\u0432\u0430 \u0444\u0430\u043A\u0443\u043B\u044C\u0442\u0435\u0442\u0430
+      \u0413\u0440\u0438\u0444\u0444\u0438\u043D\u0434\u043E\u0440"
+    isTrue: 1
+  - randomFact: "\u0424\u0438\u043B\u043E\u0441\u043E\u0444\u0441\u043A\u0438\u0439
+      \u043A\u0430\u043C\u0435\u043D\u044C \u043F\u0440\u0435\u0434\u043E\u0441\u0442\u0430\u0432\u043B\u044F\u0435\u0442
+      \u0432\u0435\u0447\u043D\u0443\u044E \u0436\u0438\u0437\u043D\u044C"
+    isTrue: 1
+  - randomFact: "\u0414\u0440\u0430\u043A\u043E \u041C\u0430\u043B\u0444\u043E\u0439
+      \u044F\u0432\u043B\u044F\u0435\u0442\u0441\u044F \u043B\u0443\u0447\u0448\u0438\u043C
+      \u0434\u0440\u0443\u0433\u043E\u043C \u0413\u0430\u0440\u0440\u0438 \u041F\u043E\u0442\u0442\u0435\u0440\u0430"
+    isTrue: 0
+  - randomFact: "\u0421\u0438\u043C\u0432\u043E\u043B\u043E\u043C \u0444\u0430\u043A\u0443\u043B\u044C\u0442\u0435\u0442\u0430
+      \u0425\u0430\u0444\u0444\u043B\u043F\u0430\u0444 \u044F\u0432\u043B\u044F\u0435\u0442\u0441\u044F
+      \u0437\u043C\u0435\u044F"
+    isTrue: 0
+  - randomFact: "\u0414\u0430\u043C\u0431\u043B\u0434\u043E\u0440 \u0432\u043B\u0430\u0434\u0435\u0435\u0442
+      \u043F\u0430\u043B\u043E\u0447\u043A\u043E\u0439 \u0441 \u0441\u0435\u0440\u0434\u0446\u0435\u043C
+      \u0444\u0435\u043D\u0438\u043A\u0441\u0430"
+    isTrue: 1
+  - randomFact: "\u041F\u0435\u0440\u0432\u044B\u0439 \u043A\u0443\u0440\u0441 \u0432
+      \u0425\u043E\u0433\u0432\u0430\u0440\u0442\u0441\u0435 \u043D\u0430\u0447\u0438\u043D\u0430\u0435\u0442\u0441\u044F
+      \u0432 11 \u043B\u0435\u0442"
+    isTrue: 1
+  - randomFact: "\u0423 \u0413\u0430\u0440\u0440\u0438 \u043D\u0435 \u0431\u044B\u043B\u043E
+      \u0434\u0435\u0442\u0435\u0439"
+    isTrue: 0
+  - randomFact: "\u0425\u043E\u0433\u0432\u0430\u0440\u0442\u0441 \u043D\u0430\u0445\u043E\u0434\u0438\u0442\u0441\u044F
+      \u0432 \u0428\u043E\u0442\u043B\u0430\u043D\u0434\u0438\u0438"
+    isTrue: 1
+  - randomFact: "\u041C\u0438\u043D\u0435\u0440\u0432\u0430 \u041C\u0430\u043A\u0433\u043E\u043D\u0430\u0433\u0430\u043B\u043B
+      \u044F\u0432\u043B\u044F\u0435\u0442\u0441\u044F \u0437\u0430\u043C\u0435\u0441\u0442\u0438\u0442\u0435\u043B\u0435\u043C
+      \u0434\u0438\u0440\u0435\u043A\u0442\u043E\u0440\u0430 \u0425\u043E\u0433\u0432\u0430\u0440\u0442\u0441\u0430"
+    isTrue: 1
+  - randomFact: "\u0421\u043D\u0435\u0433\u0433 \u0421\u043D\u0435\u0433\u0433\u0435\u0440\u0442\u043E\u043D
+      - \u044D\u0442\u043E \u0438\u043C\u044F \u0438\u0433\u0440\u043E\u043A\u0430
+      \u043A\u0432\u0438\u0434\u0434\u0438\u0447\u0430 \u0438\u0437 \u0413\u0440\u0438\u0444\u0444\u0438\u043D\u0434\u043E\u0440\u0430"
+    isTrue: 0
+  - randomFact: "\u041B\u043E\u043A\u0438 \u0413\u0435\u0439\u0434\u0436 - \u044D\u0442\u043E
+      \u0431\u0440\u0430\u0442 \u0414\u0436\u0438\u043D\u043D\u0438 \u0423\u0438\u0437\u043B\u0438"
+    isTrue: 0
+  - randomFact: "\u0421\u043D\u0435\u0433\u0433 \u0421\u043D\u0435\u0433\u0433\u0435\u0440\u0442\u043E\u043D
+      - \u044D\u0442\u043E \u0438\u043C\u044F \u0438\u0433\u0440\u043E\u043A\u0430
+      \u043A\u0432\u0438\u0434\u0434\u0438\u0447\u0430 \u0438\u0437 \u0421\u043B\u0438\u0437\u0435\u0440\u0438\u043D\u0430"
+    isTrue: 0
+  - randomFact: "\u041C\u0438\u043D\u0435\u0440\u0432\u0430 \u041C\u0430\u043A\u0433\u043E\u043D\u0430\u0433\u0430\u043B\u043B
+      - \u0430\u043D\u0438\u043C\u0430\u0433"
+    isTrue: 1
+  - randomFact: "\u0413\u0430\u0440\u0440\u0438 \u041F\u043E\u0442\u0442\u0435\u0440
+      \u0431\u044B\u043B \u043A\u0430\u043F\u0438\u0442\u0430\u043D\u043E\u043C \u043A\u043E\u043C\u0430\u043D\u0434\u044B
+      \u043F\u043E \u043A\u0432\u0438\u0434\u0434\u0438\u0447\u0443 \u0413\u0440\u0438\u0444\u0444\u0438\u043D\u0434\u043E\u0440\u0430"
+    isTrue: 1
+  - randomFact: "\u0414\u0443\u0440\u043C\u0441\u0442\u0440\u0430\u043D\u0433 - \u044D\u0442\u043E
+      \u0448\u043A\u043E\u043B\u0430 \u043C\u0430\u0433\u0438\u0438 \u0432\u043E
+      \u0424\u0440\u0430\u043D\u0446\u0438\u0438"
+    isTrue: 0
+  - randomFact: "\u0414\u0440\u0430\u043A\u043E \u041C\u0430\u043B\u0444\u043E\u0439
+      \u0443\u0431\u0438\u043B \u0421\u0438\u0440\u0438\u0443\u0441\u0430 \u0411\u043B\u044D\u043A\u0430"
+    isTrue: 0
+  - randomFact: "\u041F\u0440\u043E\u0444\u0435\u0441\u0441\u043E\u0440 \u041B\u044E\u043F\u0438\u043D
+      \u0431\u044B\u043B \u043E\u0431\u043E\u0440\u043E\u0442\u043D\u0435\u043C"
+    isTrue: 1
+  - randomFact: "\u0420\u043E\u043D\u0430\u043B\u044C\u0434 \u0423\u0438\u0437\u043B\u0438
+      \u044F\u0432\u043B\u044F\u0435\u0442\u0441\u044F \u043A\u0440\u0435\u0441\u0442\u043D\u0438\u043A\u043E\u043C
+      \u0421\u0438\u0440\u0438\u0443\u0441\u0430 \u0411\u043B\u044D\u043A\u0430"
+    isTrue: 0
+  - randomFact: "\u0422\u0435\u0440\u0435\u0437\u0430 \u0423\u0438\u0437\u043B\u0438
+      - \u043C\u0430\u0442\u044C \u0420\u043E\u043D\u0430\u043B\u044C\u0434\u0430
+      \u0423\u0438\u0437\u043B\u0438"
+    isTrue: 0
   qText: {fileID: 524563513}
   timeToNextQuestion: 1
   animator: {fileID: 2058177575}
@@ -1618,7 +1999,7 @@ MonoBehaviour:
   - {fileID: 1958126148}
   - {fileID: 1888043090}
   - {fileID: 238202280}
-  face: {fileID: 1806174709}
+  rPoints: {fileID: 950515153}
   reachedPoints: {fileID: 950515155}
   playerHealth: {fileID: 389788041}
 --- !u!4 &878579234
@@ -1728,7 +2109,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &950515154
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1745,7 +2126,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 27}
+  m_AnchoredPosition: {x: 0, y: -123}
   m_SizeDelta: {x: -198.82056, y: 92.2271}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &950515155
@@ -2033,7 +2414,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 9d45455d5346b354984948fdf8bd0b0d, type: 3}
-    m_FontSize: 70
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 6
@@ -2044,7 +2425,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: YOU WIN
+  m_Text: "\u0412\u042B \u0412\u042B\u0419\u0413\u0420\u0410\u041B\u0418"
 --- !u!222 &1110405924
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2608,81 +2989,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -0.5}
   m_SizeDelta: {x: 0, y: -1}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &1806174709
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1806174710}
-  - component: {fileID: 1806174712}
-  - component: {fileID: 1806174711}
-  m_Layer: 0
-  m_Name: face
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &1806174710
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1806174709}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2058177574}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 230.16, y: -125}
-  m_SizeDelta: {x: 116.32, y: 146.1426}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1806174711
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1806174709}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ab0fa6dd636857f46b51ddce16ac859c, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1806174712
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1806174709}
-  m_CullTransparentMesh: 1
 --- !u!1 &1888043090
 GameObject:
   m_ObjectHideFlags: 0
@@ -2717,7 +3023,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -24.044128, y: -110}
+  m_AnchoredPosition: {x: -65, y: -173.37982}
   m_SizeDelta: {x: -407.1699, y: -635.91}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1888091608
@@ -2850,7 +3156,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: TRY AGAIN
+  m_Text: "\u0415\u0429\u0415 \u0420\u0410\u0417"
 --- !u!222 &1904233144
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2893,7 +3199,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -25.999756, y: -108.62018}
+  m_AnchoredPosition: {x: 48, y: -172}
   m_SizeDelta: {x: -456.6288, y: -638.6676}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2058177570
@@ -2998,12 +3304,12 @@ RectTransform:
   - {fileID: 1888043091}
   - {fileID: 1039421748}
   - {fileID: 1110405922}
-  - {fileID: 1806174710}
   - {fileID: 238202281}
   - {fileID: 950515154}
   - {fileID: 34937126}
   - {fileID: 924144500}
   - {fileID: 389788043}
+  - {fileID: 461694962}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -3052,7 +3358,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f8b3d3b9a2cdf4141b111d7fd6dc0286, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d6e42a6c29576da41bb003e6c386d988, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3136,7 +3442,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.23584908, g: 0.20803669, b: 0.20803669, a: 0}
+  m_Color: {r: 0.1981132, g: 0.15232289, b: 0.15232289, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

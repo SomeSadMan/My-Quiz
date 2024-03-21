@@ -1,10 +1,12 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System.Collections;
 using MaterialUI;
+using YG;
+
 
 
 public class GameManager : MonoBehaviour
@@ -21,7 +23,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Text scoreText;
     [SerializeField] private GameObject winScreen;
     [SerializeField] private GameObject[] buttons;
-    [SerializeField] private GameObject face;
+    [SerializeField] private GameObject rPoints;
     [SerializeField] private Text reachedPoints;
     [SerializeField] private Text playerHealth;
     
@@ -64,7 +66,7 @@ public class GameManager : MonoBehaviour
         if (currentQ.isTrue )
         {
             trueOrFalseAnswer.color = Color.green;
-            trueOrFalseAnswer.text = "Correct";
+            trueOrFalseAnswer.text = "Правильно";
             score++;
             scoreText.text = "" + score;
         }
@@ -72,7 +74,7 @@ public class GameManager : MonoBehaviour
         {
             health--;
             trueOrFalseAnswer.color = Color.red;
-            trueOrFalseAnswer.text = "Wrong";
+            trueOrFalseAnswer.text = "Неправильно";
             Debug.Log(health);
         }
         StartCoroutine(ToNextQuestion());
@@ -86,7 +88,7 @@ public class GameManager : MonoBehaviour
         if (!currentQ.isTrue)
         {
             trueOrFalseAnswer.color = Color.green;
-            trueOrFalseAnswer.text = "Correct";
+            trueOrFalseAnswer.text = "Правильно";
             score++;
             scoreText.text = "" + score;
             
@@ -96,7 +98,7 @@ public class GameManager : MonoBehaviour
         {
             health--;
             trueOrFalseAnswer.color = Color.red;
-            trueOrFalseAnswer.text = "Wrong";
+            trueOrFalseAnswer.text = "Неправильно";
             Debug.Log(health);
         }
         StartCoroutine(ToNextQuestion());
@@ -105,9 +107,11 @@ public class GameManager : MonoBehaviour
 
     public void TryAgain()
     {
+        
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         health = 3;
         score = 0;
+        ShowAd();
 
     }
 
@@ -122,16 +126,18 @@ public class GameManager : MonoBehaviour
     {
         
 
-        if (score == 35 )
+        if (score == 116 )
         {
-            face.SetActive(true);
+            
             animator.SetBool("True", true );
-            qText.text = "CONGRATULATIONS";
+            qText.text = "ПОЗДРАВЛЯЮ!";
             buttons[0].SetActive(false);
             buttons[1].SetActive(false);
             winScreen.SetActive(true);
             reachedPoints.color = Color.green;
-            reachedPoints.text = "you've reached " + score + " points from 30 possibles";
+            reachedPoints.text = "Вы набрали " + score + " баллов";
+            buttons[2].SetActive(true);
+            rPoints.SetActive(true);
 
 
 
@@ -143,12 +149,24 @@ public class GameManager : MonoBehaviour
     {
         if (health == 0)
         {
-            qText.text = "Oops, it seems like you failed";
+            qText.text = "Ой, ты истратил все жизни";
             buttons[0].SetActive(false);
             buttons[1].SetActive(false);
             buttons[2].SetActive(true);
+            reachedPoints.color= Color.red;
+            reachedPoints.text = "Вы набрали " + score + " баллов";
+            rPoints.SetActive(true);
+            
+
+
         }
     }
-
-
+    
+    public void ShowAd()
+    {
+        YandexGame.FullscreenShow();
+    }
 }
+
+
+
